@@ -1,0 +1,51 @@
+error: TS2345 [ERROR]: Argument of type 'number' is not assignable to parameter of type 'string'.
+        p.kill(9);
+               ^
+    at https://deno.land/x/denon@2.4.8/src/daemon.ts:92:16
+
+TS2345 [ERROR]: Argument of type 'number' is not assignable to parameter of type 'string'.
+        p.kill(9);
+               ^
+    at https://deno.land/x/denon@2.4.8/src/daemon.ts:96:16
+
+TS2551 [ERROR]: Property 'Signal' does not exist on type 'typeof Deno'. 'Deno.Signal' is an unstable API. Did you forget to run with the '--unstable' flag, or did you mean 'signal'?
+        Deno.Signal.SIGHUP,
+             ~~~~~~
+    at https://deno.land/x/denon@2.4.8/src/daemon.ts:150:14
+
+    'signal' is declared here.
+      export function signal(sig: Signal): SignalStream;
+                      ~~~~~~
+        at asset:///lib.deno.unstable.d.ts:651:19
+
+TS2551 [ERROR]: Property 'Signal' does not exist on type 'typeof Deno'. 'Deno.Signal' is an unstable API. Did you forget to run with the '--unstable' flag, or did you mean 'signal'?
+        Deno.Signal.SIGINT,
+             ~~~~~~
+    at https://deno.land/x/denon@2.4.8/src/daemon.ts:151:14
+
+    'signal' is declared here.
+      export function signal(sig: Signal): SignalStream;
+                      ~~~~~~
+        at asset:///lib.deno.unstable.d.ts:651:19
+
+TS2551 [ERROR]: Property 'Signal' does not exist on type 'typeof Deno'. 'Deno.Signal' is an unstable API. Did you forget to run with the '--unstable' flag, or did you mean 'signal'?
+        Deno.Signal.SIGTERM,
+             ~~~~~~
+    at https://deno.land/x/denon@2.4.8/src/daemon.ts:152:14
+
+    'signal' is declared here.
+      export function signal(sig: Signal): SignalStream;
+                      ~~~~~~
+        at asset:///lib.deno.unstable.d.ts:651:19
+
+TS2551 [ERROR]: Property 'Signal' does not exist on type 'typeof Deno'. 'Deno.Signal' is an unstable API. Did you forget to run with the '--unstable' flag, or did you mean 'signal'?
+        Deno.Signal.SIGTSTP,
+             ~~~~~~
+    at https://deno.land/x/denon@2.4.8/src/daemon.ts:153:14
+
+    'signal' is declared here.
+      export function signal(sig: Signal): SignalStream;
+                      ~~~~~~
+        at asset:///lib.deno.unstable.d.ts:651:19
+
+Found 6 errors.
